@@ -83,7 +83,7 @@ img{
 
 }
 .card-modal{
-    width: 50vw;
+    width: auto;
     align-items: center;
 }
 .modal-image{
@@ -129,7 +129,9 @@ align-items: center;
     .overlay, img{
         width: 500px;
     }
-
+    .modal-image{
+        overflow-x:hidden;
+    }
 
     .card{
         width: 500px;
@@ -140,7 +142,7 @@ align-items: center;
     }
 
     .card-modal{
-        top:20%;
+        margin-right: 0;
     }
     .content{
         width: 800px;
